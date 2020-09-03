@@ -1,0 +1,7 @@
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  - one artificial neuron\С_Sharp  - one artificial neuron\bin\Debug\С_Sharp  - one artificial neuron.exe.config
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  - one artificial neuron\С_Sharp  - one artificial neuron\bin\Debug\С_Sharp  - one artificial neuron.exe
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  - one artificial neuron\С_Sharp  - one artificial neuron\bin\Debug\С_Sharp  - one artificial neuron.pdb
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  - one artificial neuron\С_Sharp  - one artificial neuron\obj\Debug\С_Sharp  - one artificial neuron.csprojAssemblyReference.cache
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  - one artificial neuron\С_Sharp  - one artificial neuron\obj\Debug\С_Sharp  - one artificial neuron.csproj.CoreCompileInputs.cache
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  - one artificial neuron\С_Sharp  - one artificial neuron\obj\Debug\С_Sharp  - one artificial neuron.exe
+C:\Users\28032015-0\Desktop\С# - Proj\С_Sharp  - one artificial neuron\С_Sharp  - one artificial neuron\obj\Debug\С_Sharp  - one artificial neuron.pdb
