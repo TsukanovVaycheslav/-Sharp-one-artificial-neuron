@@ -43,9 +43,10 @@ namespace С_Sharp____one_artificial_neuron
                 i++;
 
                 neuron.Train(usd, rub);
-                
-                Console.WriteLine($"Итерация: {i}\tОшибка:\t{neuron.LastError}");
-                
+                if (i % 100000 == 0)
+                {
+                    Console.WriteLine($"Итерация: {i}\tОшибка:\t{neuron.LastError}");
+                }
 
             } while (neuron.LastError > neuron.Smoothing || neuron.LastError < -neuron.Smoothing);
 
