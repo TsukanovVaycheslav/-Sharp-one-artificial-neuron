@@ -53,7 +53,7 @@ namespace С_Sharp____one_artificial_neuron
             Console.WriteLine("Обучение завершено!");
             Console.WriteLine($"{neuron.PromissInputData(100)} rub в {100} usd");
             Console.WriteLine($"{neuron.PromissInputData(541)} rub в {541} usd");
-            Console.WriteLine($"{neuron.PromissInputData(10)} rub в {10} rub");
+            Console.WriteLine($"{neuron.RestoreInputData(10)} rub в {10} rub");
         }
     }
 }
