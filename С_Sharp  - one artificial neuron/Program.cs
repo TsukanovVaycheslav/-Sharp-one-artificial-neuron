@@ -13,7 +13,7 @@ namespace С_Sharp____one_artificial_neuron
             private decimal weight = 0.5m;
             public decimal LastError { get; private set; }
             public decimal Smoothing { get; set; } = 0.00001m;
-            public decimal PromissInputData(decimal input) 
+            public decimal PromissInputData(decimal input)
             {
                 return input * weight;
             }
@@ -32,8 +32,8 @@ namespace С_Sharp____one_artificial_neuron
 
         static void Main(string[] args)
         {
-            decimal usd = 1;
-            decimal rub = 74.09m;
+            decimal km = 100;
+            decimal miles = 62.1371m;
 
             Neuron neuron = new Neuron();
 
@@ -42,18 +42,18 @@ namespace С_Sharp____one_artificial_neuron
             {
                 i++;
 
-                neuron.Train(usd, rub);
-                if (i % 100000 == 0)
-                {
-                    Console.WriteLine($"Итерация: {i}\tОшибка:\t{neuron.LastError}");
-                }
+                neuron.Train(km, miles);
+
+                Console.WriteLine($"Итерация: {i}\tОшибка:\t{neuron.LastError}");
 
             } while (neuron.LastError > neuron.Smoothing || neuron.LastError < -neuron.Smoothing);
 
             Console.WriteLine("Обучение завершено!");
-            Console.WriteLine($"{neuron.PromissInputData(100)} rub в {100} usd");
-            Console.WriteLine($"{neuron.PromissInputData(541)} rub в {541} usd");
-            Console.WriteLine($"{neuron.RestoreInputData(10)} rub в {10} rub");
+            Console.WriteLine($"{neuron.PromissInputData(100)} миль в {100} км");
+            Console.WriteLine($"{neuron.PromissInputData(541)} миль в {541} км");
+            Console.WriteLine($"{neuron.RestoreInputData(10)} км в {10} милях");
+
+
         }
     }
 }

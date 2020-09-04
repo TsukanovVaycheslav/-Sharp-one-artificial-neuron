@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "С_Sharp  - one artificial neuron", "С_Sharp  - one artificial neuron\С_Sharp  - one artificial neuron.csproj", "{56726ACD-DE7C-4563-B504-BEA2FF0AECC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "С_Sharp  - one artificial neuron", "С_Sharp  - one artificial neuron\С_Sharp  - one artificial neuron.csproj", "{57ADB0A7-2CDF-44E8-AA99-D8973BA0BB98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{56726ACD-DE7C-4563-B504-BEA2FF0AECC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56726ACD-DE7C-4563-B504-BEA2FF0AECC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56726ACD-DE7C-4563-B504-BEA2FF0AECC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56726ACD-DE7C-4563-B504-BEA2FF0AECC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57ADB0A7-2CDF-44E8-AA99-D8973BA0BB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ADB0A7-2CDF-44E8-AA99-D8973BA0BB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ADB0A7-2CDF-44E8-AA99-D8973BA0BB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ADB0A7-2CDF-44E8-AA99-D8973BA0BB98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DCF65508-D8B8-4184-AF10-0702055C3DEC}
+		SolutionGuid = {2D2C2271-EC4D-4420-BB16-A1DDACFE36AF}
 	EndGlobalSection
 EndGlobal
