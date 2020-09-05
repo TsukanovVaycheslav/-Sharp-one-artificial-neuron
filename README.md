@@ -1,1 +1,1 @@
-# -_Sharp---one-artificial-neuron
+# С_Sharp---one-artificial-neuron
